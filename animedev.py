@@ -4,7 +4,7 @@ import random
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot("634522342:AAHWAJrI3Mkp1_2KcHkwkQg7SwURtoA2nlA")
+bot = telebot.TeleBot("token")
 
 print("Бот запущен\nСоедениние")
 bot.send_message(-1001160331786, "Бот запущен")
